@@ -1,1 +1,5 @@
-
+[
+  {"kode":"ARK-001","nama":"Piring Keramik","kategori":"Keramik","bahan":"Tanah liat","periode":"Abad ke-17","situs":"Contoh situs, Sulawesi Selatan","dimensi":"Diameter 24 cm, tinggi 4 cm","kondisi":"Utuh","tahun":"2024","deskripsi":"Contoh data. Ganti dengan deskripsi objek yang sebenarnya.","model":"models/ARK-001.glb","poster":""},
+  {"kode":"ARK-002","nama":"Kapak Batu","kategori":"Litik","bahan":"Batu","periode":"Prasejarah","situs":"Contoh situs, Sulawesi Selatan","dimensi":"Panjang 12 cm","kondisi":"Baik","tahun":"2023","deskripsi":"Contoh data. Ganti dengan deskripsi objek yang sebenarnya.","model":"models/ARK-002.glb","poster":""},
+  {"kode":"ARK-003","nama":"Fragmen Gerabah","kategori":"Gerabah","bahan":"Tanah liat","periode":"Neolitik","situs":"Contoh situs, Sulawesi Selatan","dimensi":"8 x 6 cm","kondisi":"Fragmentaris","tahun":"2022","deskripsi":"Contoh data. Ganti dengan deskripsi objek yang sebenarnya.","model":"models/ARK-003.glb","poster":""}
+]
