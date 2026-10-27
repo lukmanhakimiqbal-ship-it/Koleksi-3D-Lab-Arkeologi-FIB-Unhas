@@ -48,6 +48,7 @@ function openDetail(kode) {
   mv.addEventListener("error", () => (err.hidden = false), { once: true });
   mv.setAttribute("alt", "Model 3D " + k.nama);
   mv.setAttribute("src", k.model);
+  mv.setAttribute("orientation", k.orientasi || "0deg 0deg 0deg");
   if (k.poster) mv.setAttribute("poster", k.poster); else mv.removeAttribute("poster");
   const rows = [["Kode", k.kode], ["Kategori", k.kategori], ["Bahan", k.bahan], ["Periode", k.periode],
     ["Situs", k.situs], ["Dimensi", k.dimensi], ["Kondisi", k.kondisi], ["Tahun akuisisi", k.tahun]]
