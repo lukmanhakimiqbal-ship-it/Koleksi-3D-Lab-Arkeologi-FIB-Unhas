@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Koleksi 3D Laboratorium Arkeologi FIB Unhas</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,700&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script type="module" src="https://cdn.jsdelivr.net/npm/@google/model-viewer@3.5.0/dist/model-viewer.min.js"></script>
+</head>
+<body>
+<header class="top">
+  <h1>Koleksi 3D<br>Laboratorium Arkeologi</h1>
+  <p>Program Studi Arkeologi, Fakultas Ilmu Budaya, Universitas Hasanuddin. Putar, perbesar, dan telaah objek hasil fotogrametri.</p>
+</header>
+
+<main class="layout">
+  <aside class="filters" aria-label="Penyaring koleksi">
+    <label>Cari
+      <input id="q" type="search" placeholder="Nama, kode, atau situs">
+    </label>
+    <label>Kategori
+      <select id="f-kategori"><option value="">Semua</option></select>
+    </label>
+    <label>Bahan
+      <select id="f-bahan"><option value="">Semua</option></select>
+    </label>
+    <label>Periode
+      <select id="f-periode"><option value="">Semua</option></select>
+    </label>
+    <button id="reset" type="button">Atur ulang</button>
+    <p id="count" aria-live="polite"></p>
+  </aside>
+
+  <section id="grid" class="grid" aria-label="Daftar koleksi"></section>
+</main>
+
+<dialog id="detail">
+  <button class="close" id="close" aria-label="Tutup">Tutup</button>
+  <div class="viewer-wrap">
+    <model-viewer id="mv" camera-controls auto-rotate touch-action="pan-y"
+      shadow-intensity="1" exposure="1" loading="lazy" ar ar-modes="webxr scene-viewer quick-look"></model-viewer>
+    <p id="mv-error" class="mv-error" hidden>Berkas model 3D belum tersedia. Letakkan file .glb di folder models/.</p>
+  </div>
+  <div class="info" id="info"></div>
+</dialog>
+
+<footer class="foot">Laboratorium Arkeologi, FIB Universitas Hasanuddin, Makassar</footer>
+<script src="app.js"></script>
+</body>
+</html>
