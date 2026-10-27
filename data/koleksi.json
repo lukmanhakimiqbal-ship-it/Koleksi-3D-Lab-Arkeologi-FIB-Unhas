@@ -1,5 +1,5 @@
 [
   {"kode":"BSO/XXV/84/23/2/(2)/3","nama":"Wadah Tembikar","kategori":"Keramik","bahan":"Earthenware","periode":"Kolonial","situs":"Benteng Somba Opu, Kab. Gowa, Sulawesi Selatan","dimensi":"Diameter: -, tinggi: -","kondisi":"Hampir Utuh","tahun":"2021","deskripsi":"Wadah yang terbuat dari tembikar.","model":"models/Tembikar.glb","poster":"","orientasi": "180deg 0deg 0deg"},
-  {"kode":"ARK-002","nama":"Kapak Batu","kategori":"Litik","bahan":"Batu","periode":"Prasejarah","situs":"Contoh situs, Sulawesi Selatan","dimensi":"Panjang 12 cm","kondisi":"Baik","tahun":"2023","deskripsi":"Contoh data. Ganti dengan deskripsi objek yang sebenarnya.","model":"models/ARK-002.glb","poster":""},
+  {"kode":"ARK-002","nama":"Fragmen Mandibula Bos sp","kategori":"Fauna","bahan":"Tulang","periode":"Prasejarah","situs":"Sangiran, Jawa Tengah","dimensi":"-","kondisi":"Fragmen","tahun":"2025","deskripsi":"Fragmen mandibula Bos sp dari situs Sangiran.","model":"models/Bos_sp.glb","poster":"","orientasi": "180deg 0deg 0deg"},
   {"kode":"ARK-003","nama":"Fragmen Gerabah","kategori":"Gerabah","bahan":"Tanah liat","periode":"Neolitik","situs":"Contoh situs, Sulawesi Selatan","dimensi":"8 x 6 cm","kondisi":"Fragmentaris","tahun":"2022","deskripsi":"Contoh data. Ganti dengan deskripsi objek yang sebenarnya.","model":"models/ARK-003.glb","poster":""}
 ]
